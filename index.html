@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>API Search</title>
+  </head>
+  <body>
+    <section class="form-section">
+      <form class="search-form">
+        <input
+          class="input"
+          type="text"
+          name="category"
+          placeholder="Get list of api's by category "
+          list="categories"
+        />
+        <datalist id="categories"></datalist> 
+        <button class="search-btn">Search</button>
+      </form>
+    </section>
+    <section class="apis-section"></section>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
