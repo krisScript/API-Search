@@ -1,6 +1,6 @@
 # Vanilla JS API Search app
 
-App build with vanilla javascript and bulma.Data provided by [publicapis.org](https://api.publicapis.org/)
+App build with vanilla javascript and scss.Data provided by [publicapis.org](https://api.publicapis.org/)
 
 ## Getting Started
 
