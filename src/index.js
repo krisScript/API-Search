@@ -10,7 +10,9 @@ document.addEventListener('DOMContentLoaded', e => {
     .then(data => {
       data.forEach(category => {
         const option = document.createElement('option');
-        option.value = category;
+        //the api returns error when category is used
+        const correctCategory = category.split(' ')[0];
+        option.value = correctCategory;
         categoriesDatalist.appendChild(option);
       });
     })
